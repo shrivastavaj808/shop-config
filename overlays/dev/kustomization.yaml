@@ -5,7 +5,7 @@ resources:
 namespace: shop-dev
 replicas:
 - name: shop
-  count: 1
+  count: 2
 images:
 - name: nginx
   newTag: "1.29"
